@@ -1,0 +1,25 @@
+body{
+    background: #ffd700;
+    font: normal 15pt Arial, Helvetica, sans-serif;
+}
+header, footer{
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 5px rgba(0,0,0, 0.3);
+}
+section{
+    max-width: 500px;
+    margin: auto;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+h2{
+    color: #daa520;
+}
+p a{
+    border-left: 3px solid #ffd700;
+    padding-left: 5px;
+    text-decoration: none;
+}

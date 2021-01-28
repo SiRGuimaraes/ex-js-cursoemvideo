@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercícios de JS</title>
+    <script>
+        function horadodia(){
+            let data = new Date();
+            let hora = data.getHours();
+            let e = document.getElementById("horadodia");
+            if(hora >= 6 && hora <12){
+                e.style.color = "#d9bc83";
+            }else if(hora < 18){
+                e.style.color = "#70434a";
+            }else{
+                e.style.color = "#18566f";
+            }
+        }
+    </script>
+</head>
+<body onload="horadodia()">
+<header>
+    <h1>Exercícios de JavaScript</h1>
+</header>
+<section>
+    <div>
+        <h2>Condições</h2>
+        <p><a href="horadodia/index.html" target="_blank" id="horadodia">Exercício 1: Hora do dia</a></p>
+        <p><a href="verificadordeidade/index.html" target="_blank" style="color: #468eec">Exercício 2 : Verificador de idade</a></p>
+
+        <h2>Repetições</h2>
+        <p><a href="contador/index.html" target="_blank" style="color: #666699">Exercício 03 : Contador de números</a></p>
+        <p><a href="tabuada/index.html" target="_blank" style="color: #5f9ea0">Exercício 04: Tabuada</a></p>
+    </div>
+</section>
+<footer>
+    <p>&copy;Rafael Guimarães</p>
+</footer>
+</body>
+</html>
