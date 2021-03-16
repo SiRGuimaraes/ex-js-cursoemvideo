@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-https://sirguimaraes.github.io/ex-js-cursoemvideo/
+https://rafa-guimaraes.github.io/ex-js-cursoemvideo/
 
 Conjunto de exercícios realizados durante o curso de JavaScript do [Curso em Vídeo](https://www.cursoemvideo.com/).
 
@@ -29,7 +29,5 @@ gh repo clone SiRGuimaraes/ex-js-cursoemvideo
 # Autor
 
 Rafael Guimarães Nogueira
-
-https://www.linkedin.com/in/wmazoni
 
 
